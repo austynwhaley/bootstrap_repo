@@ -1,15 +1,21 @@
-body, html {
-    height: 100%;
-  }
-  .bg {
-    /* The image used */
-    background-image: url("https://wallpapercave.com/wp/wp4283971.jpg");
+body {
+  margin: 30px;
+}
+h1 {
+  margin: 15px;
+}
+
+.about-me {
+  border: 10px;
+  margin: 30px;
+}
+
+.row {
+  margin: 30px;
+}
+
+//*p {
+  color: beige;
+}
   
-    /* Full height */
-    height: 100%;
   
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
