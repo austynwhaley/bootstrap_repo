@@ -24,8 +24,6 @@
             </div>
         </div>
     </nav>
-
-    <h1>Contact</h1>
   
     <form id="contact-form" method="post" action="contact.php" role="form">
 
@@ -33,18 +31,21 @@
     
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <h1>Contact</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
                     <div class="form-group">
                         <label for="form_name">Name</label>
                         <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Firstname is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-xs-6">
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-xs-6">
                     <div class="form-group">
                         <label for="form_email">Email</label>
                         <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
@@ -53,7 +54,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-xs-6">
                     <div class="form-group">
                         <label for="form_message">Message</label>
                         <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please, leave us a message."></textarea>
@@ -62,7 +63,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 <input type="submit" class="btn btn-success btn-send" value="Submit">
             </div>
         </div>

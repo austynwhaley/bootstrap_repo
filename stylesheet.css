@@ -1,21 +1,24 @@
 body {
-  margin: 30px;
+ color: #212121;
 }
 h1 {
   margin: 15px;
 }
 
-.about-me {
+.container {
   border: 10px;
   margin: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
 }
 
 .row {
   margin: 30px;
 }
 
-//*p {
-  color: beige;
+[class*="col-"] {
+    margin-bottom: 15px;
 }
-  
+ 
   
