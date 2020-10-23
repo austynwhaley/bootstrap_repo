@@ -3,11 +3,12 @@
 ### Table of Contents
 
 - [Description](#description)
-- [Link to Application]()
+- [Link to Application](https://austynwhaley.github.io/bootstrap_repo/index.html)
 - [License](#license)
 
 ---
 
+![Screenshot](./assets/images/mobilescreenshotHW2.png)
 ![Screenshot](./assets/images/mobilescreenshotHW.png)
 
 ---
@@ -15,7 +16,7 @@
 
 ## Description
 
-I manged to make all 3 files mobile responsive, I will say this was a bit of a challenge for me but im happy with the result. All links on the nav bar work and I added some links to my personal social media accounts. I left the portfolio images blank cause I really didnt have any work of my own to show since Im still pretty new, but I plan to keep this repo for the future and add images of my work.
+I manged to make all 3 files mobile responsive, I will say this was a bit of a challenge for me but im happy with the result. All links on the nav bar work along with the toggler button. Also I added some links to my personal social media accounts. I left the portfolio images blank cause I really didnt have any work of my own to show since Im still pretty new, but I plan to keep this repo for the future and add images of my work.
 
 ---
 
