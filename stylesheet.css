@@ -1,5 +1,9 @@
 body {
- color: #212121;
+  background-image: url(./assets/images/BG_img.jpg);
+}
+.card-body {
+ background-color: whitesmoke;
+ padding: 15px;
 }
 h1 {
   margin: 15px;
@@ -7,18 +11,43 @@ h1 {
 
 .container {
   border: 10px;
-  margin: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
-  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .row {
   margin: 30px;
 }
 
-[class*="col-"] {
-    margin-bottom: 15px;
+.card-text {
+  color: #242424;
+  line-height: 30px;
 }
  
+.card-title {
+  color: #242424;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title:after
+{
+    content:' ';
+    display:block;
+    border:0.5px solid black;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  padding: 10px;
+}
+
+a {
+  padding: 10px;
+}
   
