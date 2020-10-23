@@ -50,4 +50,9 @@ img{
 a {
   padding: 10px;
 }
+
+.navbar-toggler{
+  display: block;
+  padding: 20px;
+} 
   
