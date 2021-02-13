@@ -1,0 +1,92 @@
+body {
+  background-image: url(./assets/images/White-Background-Iphone-Pics-1.jpeg);
+}
+.card-body {
+ background-color: white;
+ padding: 15px;
+}
+h1 {
+ text-align: center;
+ font-size: 32px;
+ font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  border: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row {
+  margin: 30px;
+}
+
+.card-text {
+  color: #242424;
+  line-height: 30px;
+}
+ 
+.card-title {
+  color: #242424;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title:after
+{
+    content:' ';
+    display:block;
+    border:0.5px solid black;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  padding: 10px;
+}
+
+a {
+  padding: 10px;
+}
+
+#conatctImg{
+  padding: 20px;
+}
+
+#portfolioImg{
+  padding: 20px;
+}
+
+
+#aboutmeImg{
+  padding: 20px;
+}
+
+#contactImg:hover{
+  cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #242424;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#portfolioImg:hover{
+  cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #242424;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#aboutmeImg:hover{
+  cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #242424;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
