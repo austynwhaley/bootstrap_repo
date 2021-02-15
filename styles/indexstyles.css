@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 
+
+html { margin-left: calc(100vw - 100%); } 
+
 body {
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
@@ -13,11 +16,11 @@ body {
   }
   /* ============= Animation background ========= */
   .background {
-	background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
+	background: linear-gradient(132deg, #FFBE0B, #e94f37, #610345);
 	background-size: 400% 400%;
 	animation: Gradient 15s ease infinite;
-	position: relative;
-	height: 100vh;
+	position: absolute;
+	height: 120vh;
 	width: 100%;
 	overflow: hidden;
 	padding:0;
@@ -71,6 +74,48 @@ body {
 	left: 75vw;
 	top: 50vh;
   }
+  .cube:nth-child(9) {
+	animation-delay: 2s;
+	left: 70vw;
+	top: 12vh;
+  }
+  .cube:nth-child(10) {
+	animation-delay: 4s;
+	left: 30vw;
+	top: 25vh;
+  }
+  .cube:nth-child(11) {
+	animation-delay: 6s;
+	left: 60vw;
+	top: 30vh;
+  }
+  .cube:nth-child(12) {
+	animation-delay: 8s;
+	left: 40vw;
+	top: 50vh;
+  }
+  .cube:nth-child(13) {
+	animation-delay: 10s;
+	left: 15vw;
+	top: 10vh;
+  }
+  .cube:nth-child(14) {
+	animation-delay: 12s;
+	left: 90vw;
+	top: 65vh;
+  }
+  .cube:nth-child(15) {
+	animation-delay: 14s;
+	left: 30vw;
+	top: 70vh;
+  }
+  .cube:nth-child(16) {
+	animation-delay: 14s;
+	left: 36vw;
+	top: 48vh;
+  }
+
+  
   /* ================= Header ============ */
   header{
 	position: absolute;
@@ -80,54 +125,11 @@ body {
 	margin: 0;
 	padding: 0;
   }
-  /* navbar */
-  nav{
-	color: #FFF;
-	margin:30px 90px;
-  }
-  nav ul{
-	list-style: none;
-  }
-  nav ul li {
-	float: left;
-	transition: .3s;
-  }
-  nav ul li a{
-	text-decoration: none;
-	color: #EFEEF5;
-	transition: .5;
-	font-size: 15px;
-	margin-left:16px;
-  }
-  nav ul li:hover a{
-	text-decoration: none;
-	color: #591BC5;;
-  }
-  nav ul li:hover{
-	height: 45px;
-	padding-top: 30px;
-	margin-top: -30px;
-   background: #EFEEF5;
-	text-decoration: none;
-	transform: skew(15deg);
-  }
-  /* Logo */
-  .logo{
-	
-	margin: 40px 63px;
-	float: left;
-	
-  }
-  .logo span{
-	color: #591BC5;
-	font-size: 2em;
-	line-height: 1.4;
-	padding-left: 5px;
-	font-weight: bold;
-  }
+
+ 
   /* Header content & title & button*/
   .index-header-content{
-	margin-top: 15%;
+	margin-top: 16%;
 	text-align: center;
 	color:  #EFEEF5;
   }
@@ -144,7 +146,7 @@ body {
   .index-header-content button{
 	width: 140px;
 	margin:20px 10px;
-	color: #591BC5;
+	color: #e94f37;
 	font-size: 17px;
 	border:1px solid #EFEEF5;
 	font-weight: 500;
@@ -176,7 +178,7 @@ body {
   .header-content button{
 	width: 140px;
 	margin:20px 10px;
-	color: #591BC5;
+	color: #e94f37;
 	font-size: 17px;
 	border:1px solid #EFEEF5;
 	font-weight: 500;
