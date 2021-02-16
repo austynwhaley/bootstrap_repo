@@ -8,7 +8,7 @@
 
 ---
 
-![Screenshot](./assets/images/bootstrapSS.png)
+![Screenshot](./bootstrapSS.png)
 
 ---
 
