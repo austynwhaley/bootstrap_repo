@@ -35,7 +35,7 @@ function About () {
 
                 <a href="https://github.com/austynwhaley"><img height="100px" width="100px" src="./github-logo-icon-24.png" alt="github"/></a> 
                 <a href="https://www.linkedin.com/in/austyn-whaley-a820421b5/"><img height="100px" width="100px" src="./linkedinicon.png" alt="linkedin"/></a>
-                <a href="../public/Resume.pdf"><img height="100px" width="100px" src="./resumeicon.png" alt="resumeicon"/></a>
+                <a href="/pdf"><img height="100px" width="100px" src="./resumeicon.png" alt="resumeicon"/></a>
 
             </section>  
         </header>
