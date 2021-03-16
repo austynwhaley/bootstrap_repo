@@ -36,7 +36,7 @@ function Portfolio () {
                         <div class="col-md-8 portfolio-piece" >
                             <div >
                                 <div>
-                                    <img src="./LMSS.png" class="img-fluid" alt="Responsive image"/>
+                                    <img src={`${process.env.PUBLIC_URL}/LMSS.png`} class="img-fluid" alt="Libmaker screenshot"/>
                                 </div>
                                 <div class="image-overlay">
                                     <p class="image-description">
@@ -56,7 +56,7 @@ function Portfolio () {
                         <div class="col-md-8 portfolio-piece" >
                             <div>
                                 <div>
-                                    <img src="./moviejamzSS.png" class="img-fluid"  alt="Responsive image"/>
+                                    <img src={`${process.env.PUBLIC_URL}/moviejamzSS.png`} class="img-fluid"  alt="moviejamz screenshot"/>
                                 </div>
                                 <div>
                                     <p class="image-description">
@@ -78,7 +78,7 @@ function Portfolio () {
                         <div class="col-md-8 portfolio-piece" >
                             <div>
                                 <div>
-                                    <img src="./ZBSS.png" class="img-fluid" alt="Responsive image"/>
+                                    <img src={`${process.env.PUBLIC_URL}/ZBSS.png`} class="img-fluid" alt="burgers screenshot"/>
                                 </div>
                                 <div>
                                     <p class="image-description">
@@ -98,7 +98,7 @@ function Portfolio () {
                         <div class="col-md-8 portfolio-piece" >
                             <div>
                                 <div>
-                                    <img src="./nTSS.png" class="img-fluid" style={{}} alt="Responsive image"/>
+                                    <img src={`${process.env.PUBLIC_URL}/ntSS.png`} class="img-fluid" style={{}} alt="notetaker screenshot"/>
                                 </div>
                                 <div>
                                     <p class="image-description">
