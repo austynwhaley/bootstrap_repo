@@ -33,9 +33,9 @@ function About () {
                     <p style={{fontSize: '1.4rem'}}> I've recently enrolled in a Coding Bootcamp where I plan to learn new skills and take on a new career in Web Development.</p>
                 </div>
 
-                <a href="https://github.com/austynwhaley"><img height="100px" width="100px" src="./github-logo-icon-24.png" alt="github"/></a> 
-                <a href="https://www.linkedin.com/in/austyn-whaley-a820421b5/"><img height="100px" width="100px" src="./linkedinicon.png" alt="linkedin"/></a>
-                <a href="/pdf"><img height="100px" width="100px" src="./resumeicon.png" alt="resumeicon"/></a>
+                <a href="https://github.com/austynwhaley"><img height="100px" width="100px"  src={`${process.env.PUBLIC_URL}/github-logo-icon-24.png`} alt="github"/></a> 
+                <a href="https://www.linkedin.com/in/austyn-whaley-a820421b5/"><img height="100px" width="100px"  src={`${process.env.PUBLIC_URL}/linkedinicon.png`} alt="linkedin"/></a>
+                <a href="/pdf"><img height="100px" width="100px"  src={`${process.env.PUBLIC_URL}/resumeicon.png`} alt="resumeicon"/></a>
 
             </section>  
         </header>
