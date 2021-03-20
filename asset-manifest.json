@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bootstrap_repo/static/css/main.8a91582a.chunk.css",
+    "main.js": "/bootstrap_repo/static/js/main.332fd0fc.chunk.js",
+    "main.js.map": "/bootstrap_repo/static/js/main.332fd0fc.chunk.js.map",
+    "runtime-main.js": "/bootstrap_repo/static/js/runtime-main.92e0d638.js",
+    "runtime-main.js.map": "/bootstrap_repo/static/js/runtime-main.92e0d638.js.map",
+    "static/css/2.6318534e.chunk.css": "/bootstrap_repo/static/css/2.6318534e.chunk.css",
+    "static/js/2.eecb1a1b.chunk.js": "/bootstrap_repo/static/js/2.eecb1a1b.chunk.js",
+    "static/js/2.eecb1a1b.chunk.js.map": "/bootstrap_repo/static/js/2.eecb1a1b.chunk.js.map",
+    "static/js/3.dd921c84.chunk.js": "/bootstrap_repo/static/js/3.dd921c84.chunk.js",
+    "static/js/3.dd921c84.chunk.js.map": "/bootstrap_repo/static/js/3.dd921c84.chunk.js.map",
+    "index.html": "/bootstrap_repo/index.html",
+    "static/css/2.6318534e.chunk.css.map": "/bootstrap_repo/static/css/2.6318534e.chunk.css.map",
+    "static/css/main.8a91582a.chunk.css.map": "/bootstrap_repo/static/css/main.8a91582a.chunk.css.map",
+    "static/js/2.eecb1a1b.chunk.js.LICENSE.txt": "/bootstrap_repo/static/js/2.eecb1a1b.chunk.js.LICENSE.txt",
+    "static/media/Resume.1ed5d2d5.pdf": "/bootstrap_repo/static/media/Resume.1ed5d2d5.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92e0d638.js",
+    "static/css/2.6318534e.chunk.css",
+    "static/js/2.eecb1a1b.chunk.js",
+    "static/css/main.8a91582a.chunk.css",
+    "static/js/main.332fd0fc.chunk.js"
+  ]
+}
