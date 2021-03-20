@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import { HashRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, } from 'react-router-dom';
 
 //pages
 import Homepage from './pages/Homepage/index'
@@ -24,7 +24,6 @@ class App extends Component{
         <Route exact path='/portfolio' component={Portfolio}/>
         <Route exact path='/pdf' component={Pdf}/>
         <Route exact path="/404" component={NotFound}/>
-        <Redirect to="/404"/>
         </Switch>
       </Router>
 
