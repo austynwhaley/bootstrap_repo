@@ -18,7 +18,7 @@ class App extends Component{
 
       <Router>
         <Switch>
-        <Route exact path='/bootstrap_repo' component={Homepage}/>
+        <Route exact path='/' component={Homepage}/>
         <Route exact path='/about' component={About}/>
         <Route exact path='/contact' component={Contact}/>
         <Route exact path='/portfolio' component={Portfolio}/>
