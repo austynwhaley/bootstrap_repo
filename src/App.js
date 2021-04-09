@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import { HashRouter, Route, Switch, Link, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Switch} from 'react-router-dom';
 
 //pages
 import Homepage from './pages/Homepage/index'
