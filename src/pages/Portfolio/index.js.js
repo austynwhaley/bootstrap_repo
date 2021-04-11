@@ -1,6 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "../../components/Navbar";
 
 function Portfolio () {
