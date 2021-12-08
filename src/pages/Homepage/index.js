@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import profilePic from '../../assets/profilepicC-B.png'
 import Navbar from "../../components/Navbar";
 
 function Homepage () {
@@ -32,7 +33,7 @@ function Homepage () {
 
             <section className="index-header-content">
             <h1>Austyn Whaley</h1>
-            <img src="./profilepicC-B.png" alt="" height="250px" width="250px"/>
+            <img src={profilePic} alt="" height="250px" width="250px"/>
             <h2>Full Stack Web Developer</h2>
             
             </section>

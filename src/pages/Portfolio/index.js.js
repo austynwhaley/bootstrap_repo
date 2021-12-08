@@ -2,6 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './style.css';
 import Navbar from "../../components/Navbar";
+import lmss from '../../assets/LMSS.png';
+import moviejamz from '../../assets/moviejamzSS.png';
+import zbss from '../../assets/ZBSS.png';
+import ntss from '../../assets/nTSS.png';
 
 function Portfolio () {
     return(
@@ -36,7 +40,7 @@ function Portfolio () {
                         <div class="col-md-8 portfolio-piece" >
                             <div >
                                 <div>
-                                    <img src="./LMSS.png" class="img-fluid" alt="Responsive image"/>
+                                    <img src={lmss} class="img-fluid" alt="Responsive image"/>
                                 </div>
                                 <div class="image-overlay">
                                     <p class="image-description">
@@ -56,7 +60,7 @@ function Portfolio () {
                         <div class="col-md-8 portfolio-piece" >
                             <div>
                                 <div>
-                                    <img src="./moviejamzSS.png" class="img-fluid"  alt="Responsive image"/>
+                                    <img src={moviejamz} class="img-fluid"  alt="Responsive image"/>
                                 </div>
                                 <div>
                                     <p class="image-description">
@@ -78,7 +82,7 @@ function Portfolio () {
                         <div class="col-md-8 portfolio-piece" >
                             <div>
                                 <div>
-                                    <img src="./ZBSS.png" class="img-fluid" alt="Responsive image"/>
+                                    <img src={zbss} class="img-fluid" alt="Responsive image"/>
                                 </div>
                                 <div>
                                     <p class="image-description">
@@ -98,7 +102,7 @@ function Portfolio () {
                         <div class="col-md-8 portfolio-piece" >
                             <div>
                                 <div>
-                                    <img src="./nTSS.png" class="img-fluid" style={{}} alt="Responsive image"/>
+                                    <img src={ntss} class="img-fluid" style={{}} alt="Responsive image"/>
                                 </div>
                                 <div>
                                     <p class="image-description">
